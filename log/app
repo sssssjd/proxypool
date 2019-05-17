@@ -1,0 +1,791 @@
+2019-05-17 14:01:44,934 manager.py[line:27] INFO check MySQL...
+2019-05-17 14:01:44,946 manager.py[line:53] INFO replace insert 0 proxies into MySQL
+2019-05-17 14:01:44,946 task.py[line:56] INFO start background scheduler...
+2019-05-17 14:01:44,964 base.py[line:428] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2019-05-17 14:01:44,965 base.py[line:428] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2019-05-17 14:01:44,965 base.py[line:861] INFO Added job "grab_task" to job store "default"
+2019-05-17 14:01:44,966 base.py[line:861] INFO Added job "verify_task" to job store "default"
+2019-05-17 14:01:44,966 base.py[line:155] INFO Scheduler started
+2019-05-17 14:01:44,966 task.py[line:63] INFO background scheduler started
+2019-05-17 14:01:44,967 manager.py[line:140] INFO start web server...
+2019-05-17 14:01:45,341 _internal.py[line:122] INFO  * Running on http://localhost:9999/ (Press CTRL+C to quit)
+2019-05-17 14:02:00,494 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 14:02:00] "GET / HTTP/1.1" 200 -
+2019-05-17 14:02:01,014 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 14:02:01] "GET /favicon.ico HTTP/1.1" 404 -
+2019-05-17 14:02:14,114 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 14:02:14] "GET / HTTP/1.1" 200 -
+2019-05-17 14:02:27,735 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 14:02:27] "GET /get_all HTTP/1.1" 308 -
+2019-05-17 14:02:27,740 manager.py[line:87] INFO fetched 0 proxies from MySQL
+2019-05-17 14:02:27,741 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 14:02:27] "GET /get_all/ HTTP/1.1" 200 -
+2019-05-17 14:02:55,378 manager.py[line:87] INFO fetched 0 proxies from MySQL
+2019-05-17 14:02:55,378 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 14:02:55] "GET /get_all/ HTTP/1.1" 200 -
+2019-05-17 14:09:18,211 manager.py[line:27] INFO check MySQL...
+2019-05-17 14:09:18,217 manager.py[line:53] INFO replace insert 0 proxies into MySQL
+2019-05-17 14:09:18,217 task.py[line:56] INFO start background scheduler...
+2019-05-17 14:09:18,227 base.py[line:428] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2019-05-17 14:09:18,228 base.py[line:428] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2019-05-17 14:09:18,228 base.py[line:861] INFO Added job "grab_task" to job store "default"
+2019-05-17 14:09:18,228 base.py[line:861] INFO Added job "verify_task" to job store "default"
+2019-05-17 14:09:18,228 base.py[line:155] INFO Scheduler started
+2019-05-17 14:09:18,228 task.py[line:63] INFO background scheduler started
+2019-05-17 14:09:18,228 manager.py[line:140] INFO start web server...
+2019-05-17 14:09:18,403 _internal.py[line:122] INFO  * Running on http://localhost:9999/ (Press CTRL+C to quit)
+2019-05-17 14:09:21,371 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 14:09:21] "GET / HTTP/1.1" 200 -
+2019-05-17 14:09:35,550 manager.py[line:87] INFO fetched 9 proxies from MySQL
+2019-05-17 14:09:35,551 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 14:09:35] "GET /get_all/ HTTP/1.1" 200 -
+2019-05-17 14:10:22,914 manager.py[line:87] INFO fetched 9 proxies from MySQL
+2019-05-17 14:10:22,915 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 14:10:22] "GET /get_all/ HTTP/1.1" 200 -
+2019-05-17 14:10:27,445 manager.py[line:87] INFO fetched 9 proxies from MySQL
+2019-05-17 14:10:27,447 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 14:10:27] "GET /get_all/ HTTP/1.1" 200 -
+2019-05-17 14:11:03,979 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 14:11:03] "GET / HTTP/1.1" 200 -
+2019-05-17 14:11:33,810 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 14:11:33] "GET /get HTTP/1.1" 308 -
+2019-05-17 14:11:33,815 manager.py[line:87] INFO fetched 9 proxies from MySQL
+2019-05-17 14:11:33,815 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 14:11:33] "GET /get/ HTTP/1.1" 200 -
+2019-05-17 15:04:39,102 manager.py[line:27] INFO check MySQL...
+2019-05-17 15:04:39,107 manager.py[line:53] INFO replace insert 0 proxies into MySQL
+2019-05-17 15:04:39,107 task.py[line:56] INFO start background scheduler...
+2019-05-17 15:04:39,116 base.py[line:428] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2019-05-17 15:04:39,116 base.py[line:428] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2019-05-17 15:04:39,116 base.py[line:861] INFO Added job "grab_task" to job store "default"
+2019-05-17 15:04:39,117 base.py[line:861] INFO Added job "verify_task" to job store "default"
+2019-05-17 15:04:39,117 base.py[line:155] INFO Scheduler started
+2019-05-17 15:04:39,117 task.py[line:63] INFO background scheduler started
+2019-05-17 15:04:39,117 manager.py[line:140] INFO start web server...
+2019-05-17 15:04:39,282 _internal.py[line:122] INFO  * Running on http://localhost:9999/ (Press CTRL+C to quit)
+2019-05-17 15:04:48,226 manager.py[line:87] INFO fetched 184 proxies from MySQL
+2019-05-17 15:04:48,242 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 15:04:48] "GET /get_all/ HTTP/1.1" 200 -
+2019-05-17 15:04:58,207 manager.py[line:87] INFO fetched 184 proxies from MySQL
+2019-05-17 15:04:58,210 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 15:04:58] "GET /get/ HTTP/1.1" 200 -
+2019-05-17 15:05:02,251 manager.py[line:87] INFO fetched 184 proxies from MySQL
+2019-05-17 15:05:02,253 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 15:05:02] "GET /get/ HTTP/1.1" 200 -
+2019-05-17 15:05:07,129 manager.py[line:87] INFO fetched 184 proxies from MySQL
+2019-05-17 15:05:07,132 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 15:05:07] "GET /get/ HTTP/1.1" 200 -
+2019-05-17 15:05:08,559 manager.py[line:87] INFO fetched 184 proxies from MySQL
+2019-05-17 15:05:08,562 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 15:05:08] "GET /get/ HTTP/1.1" 200 -
+2019-05-17 15:05:09,887 manager.py[line:87] INFO fetched 184 proxies from MySQL
+2019-05-17 15:05:09,891 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 15:05:09] "GET /get/ HTTP/1.1" 200 -
+2019-05-17 15:05:10,776 manager.py[line:87] INFO fetched 184 proxies from MySQL
+2019-05-17 15:05:10,779 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 15:05:10] "GET /get/ HTTP/1.1" 200 -
+2019-05-17 15:05:11,560 manager.py[line:87] INFO fetched 184 proxies from MySQL
+2019-05-17 15:05:11,562 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 15:05:11] "GET /get/ HTTP/1.1" 200 -
+2019-05-17 15:05:12,225 manager.py[line:87] INFO fetched 184 proxies from MySQL
+2019-05-17 15:05:12,229 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 15:05:12] "GET /get/ HTTP/1.1" 200 -
+2019-05-17 15:05:13,032 manager.py[line:87] INFO fetched 184 proxies from MySQL
+2019-05-17 15:05:13,036 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 15:05:13] "GET /get/ HTTP/1.1" 200 -
+2019-05-17 15:05:13,747 manager.py[line:87] INFO fetched 184 proxies from MySQL
+2019-05-17 15:05:13,750 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 15:05:13] "GET /get/ HTTP/1.1" 200 -
+2019-05-17 15:05:15,912 manager.py[line:87] INFO fetched 184 proxies from MySQL
+2019-05-17 15:05:15,915 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 15:05:15] "GET /get/ HTTP/1.1" 200 -
+2019-05-17 15:14:39,118 base.py[line:123] INFO Running job "verify_task (trigger: interval[0:10:00], next run at: 2019-05-17 15:14:39 CST)" (scheduled at 2019-05-17 15:14:39.116059+08:00)
+2019-05-17 15:14:39,119 task.py[line:39] INFO run verify job...
+2019-05-17 15:14:39,159 manager.py[line:69] INFO fetched 184 proxies from MySQL
+2019-05-17 15:14:39,171 getproxy.py[line:138] INFO init proxy verify system...
+2019-05-17 15:14:40,170 getproxy.py[line:142] INFO current local ip address: 222.128.180.206, 222.128.180.206
+2019-05-17 15:14:40,172 getproxy.py[line:147] INFO validate proxies...
+2019-05-17 15:14:49,224 getproxy.py[line:150] INFO checked 184 proxies, got 103 valid proxies
+2019-05-17 15:14:49,285 manager.py[line:53] INFO replace insert 103 proxies into MySQL
+2019-05-17 15:14:49,286 task.py[line:50] INFO grab verify finished
+2019-05-17 15:14:49,286 base.py[line:135] INFO Job "verify_task (trigger: interval[0:10:00], next run at: 2019-05-17 15:24:39 CST)" executed successfully
+2019-05-17 15:19:39,122 base.py[line:123] INFO Running job "grab_task (trigger: interval[0:15:00], next run at: 2019-05-17 15:19:39 CST)" (scheduled at 2019-05-17 15:19:39.116059+08:00)
+2019-05-17 15:19:39,123 task.py[line:17] INFO run grab job...
+2019-05-17 15:19:39,162 manager.py[line:87] INFO fetched 184 proxies from MySQL
+2019-05-17 15:19:39,170 getproxy.py[line:95] INFO load spider plugins...
+2019-05-17 15:19:39,227 getproxy.py[line:108] INFO loaded spider plugin(89代理), attach 184 proxies to it
+2019-05-17 15:19:39,257 getproxy.py[line:108] INFO loaded spider plugin(快代理), attach 184 proxies to it
+2019-05-17 15:19:39,264 getproxy.py[line:108] INFO loaded spider plugin(西拉代理), attach 184 proxies to it
+2019-05-17 15:19:39,275 getproxy.py[line:108] INFO loaded spider plugin(云代理), attach 184 proxies to it
+2019-05-17 15:19:39,275 getproxy.py[line:111] INFO loaded 4 spider plugins
+2019-05-17 15:19:39,275 getproxy.py[line:114] INFO grab proxies...
+2019-05-17 15:19:39,858 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=1/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:19:39,860 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:40,289 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=1/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:19:40,289 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:40,714 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=1/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:19:40,714 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:41,136 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=1/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:19:41,136 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:41,554 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=1/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:19:41,555 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:41,555 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 15:19:41,919 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=2/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:19:41,920 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:42,316 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=2/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:19:42,316 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:42,683 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=2/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:19:42,683 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:43,043 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=2/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:19:43,043 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:43,453 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=2/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:19:43,453 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:43,454 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 15:19:43,851 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=3/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:19:43,852 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:44,246 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=3/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:19:44,247 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:44,650 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=3/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:19:44,650 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:45,089 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=3/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:19:45,090 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:45,534 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=3/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:19:45,535 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:45,535 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 15:19:45,650 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=4/, error: find no proxy data in web page
+2019-05-17 15:19:45,650 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:45,757 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=4/, error: find no proxy data in web page
+2019-05-17 15:19:45,758 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:45,848 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=4/, error: find no proxy data in web page
+2019-05-17 15:19:45,849 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:45,943 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=4/, error: find no proxy data in web page
+2019-05-17 15:19:45,944 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:46,053 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=4/, error: find no proxy data in web page
+2019-05-17 15:19:46,053 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:46,053 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 15:19:46,145 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=5/, error: find no proxy data in web page
+2019-05-17 15:19:46,146 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:46,269 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=5/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:19:46,270 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:46,418 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=5/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:19:46,418 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:46,540 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=5/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:19:46,541 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:46,659 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=5/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:19:46,659 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:46,659 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 15:19:46,769 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=6/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:19:46,770 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:46,897 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=6/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:19:46,897 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:47,055 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=6/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:19:47,056 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:47,228 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=6/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:19:47,228 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:47,352 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=6/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:19:47,353 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:47,354 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 15:19:47,471 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=7/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:19:47,472 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:47,599 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=7/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:19:47,600 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:47,722 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=7/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:19:47,722 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:47,889 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=7/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:19:47,889 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:48,005 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=7/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:19:48,006 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:48,006 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 15:19:48,132 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=8/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:19:48,132 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:48,255 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=8/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:19:48,255 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:48,394 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=8/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:19:48,395 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:48,515 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=8/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:19:48,516 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:48,643 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=8/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:19:48,644 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:48,644 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 15:19:48,787 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=9/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:19:48,788 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:48,928 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=9/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:19:48,929 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:49,048 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=9/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:19:49,048 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:49,208 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=9/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:19:49,208 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:49,374 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=9/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:19:49,374 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:19:49,374 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 15:20:07,514 getproxy.py[line:90] INFO spider plugin(89代理) grabbed 135 proxies
+2019-05-17 15:20:07,514 getproxy.py[line:90] INFO spider plugin(快代理) grabbed 135 proxies
+2019-05-17 15:20:07,515 getproxy.py[line:90] INFO spider plugin(西拉代理) grabbed 250 proxies
+2019-05-17 15:20:07,515 getproxy.py[line:90] INFO spider plugin(云代理) grabbed 0 proxies
+2019-05-17 15:20:07,515 getproxy.py[line:122] INFO grabbed 520 proxies
+2019-05-17 15:20:07,517 getproxy.py[line:138] INFO init proxy verify system...
+2019-05-17 15:20:08,552 getproxy.py[line:142] INFO current local ip address: 222.128.180.206, 222.128.180.206
+2019-05-17 15:20:08,554 getproxy.py[line:147] INFO validate proxies...
+2019-05-17 15:20:24,433 getproxy.py[line:150] INFO checked 487 proxies, got 158 valid proxies
+2019-05-17 15:20:24,614 manager.py[line:53] INFO replace insert 158 proxies into MySQL
+2019-05-17 15:20:24,614 task.py[line:32] INFO grab job finished
+2019-05-17 15:20:24,615 base.py[line:135] INFO Job "grab_task (trigger: interval[0:15:00], next run at: 2019-05-17 15:34:39 CST)" executed successfully
+2019-05-17 15:24:39,121 base.py[line:123] INFO Running job "verify_task (trigger: interval[0:10:00], next run at: 2019-05-17 15:24:39 CST)" (scheduled at 2019-05-17 15:24:39.116059+08:00)
+2019-05-17 15:24:39,122 task.py[line:39] INFO run verify job...
+2019-05-17 15:24:39,161 manager.py[line:69] INFO fetched 336 proxies from MySQL
+2019-05-17 15:24:39,166 getproxy.py[line:138] INFO init proxy verify system...
+2019-05-17 15:24:40,130 getproxy.py[line:142] INFO current local ip address: 222.128.180.206, 222.128.180.206
+2019-05-17 15:24:40,185 getproxy.py[line:147] INFO validate proxies...
+2019-05-17 15:24:51,209 getproxy.py[line:150] INFO checked 336 proxies, got 202 valid proxies
+2019-05-17 15:24:51,294 manager.py[line:53] INFO replace insert 202 proxies into MySQL
+2019-05-17 15:24:51,295 task.py[line:50] INFO grab verify finished
+2019-05-17 15:24:51,295 base.py[line:135] INFO Job "verify_task (trigger: interval[0:10:00], next run at: 2019-05-17 15:34:39 CST)" executed successfully
+2019-05-17 15:34:39,120 base.py[line:123] INFO Running job "verify_task (trigger: interval[0:10:00], next run at: 2019-05-17 15:34:39 CST)" (scheduled at 2019-05-17 15:34:39.116059+08:00)
+2019-05-17 15:34:39,121 task.py[line:39] INFO run verify job...
+2019-05-17 15:34:39,123 base.py[line:123] INFO Running job "grab_task (trigger: interval[0:15:00], next run at: 2019-05-17 15:34:39 CST)" (scheduled at 2019-05-17 15:34:39.116059+08:00)
+2019-05-17 15:34:39,124 task.py[line:17] INFO run grab job...
+2019-05-17 15:34:39,166 manager.py[line:69] INFO fetched 336 proxies from MySQL
+2019-05-17 15:34:39,174 getproxy.py[line:138] INFO init proxy verify system...
+2019-05-17 15:34:39,190 manager.py[line:87] INFO fetched 336 proxies from MySQL
+2019-05-17 15:34:39,195 getproxy.py[line:95] INFO load spider plugins...
+2019-05-17 15:34:39,195 getproxy.py[line:108] INFO loaded spider plugin(89代理), attach 336 proxies to it
+2019-05-17 15:34:39,196 getproxy.py[line:108] INFO loaded spider plugin(快代理), attach 336 proxies to it
+2019-05-17 15:34:39,196 getproxy.py[line:108] INFO loaded spider plugin(西拉代理), attach 336 proxies to it
+2019-05-17 15:34:39,196 getproxy.py[line:108] INFO loaded spider plugin(云代理), attach 336 proxies to it
+2019-05-17 15:34:39,196 getproxy.py[line:111] INFO loaded 4 spider plugins
+2019-05-17 15:34:39,196 getproxy.py[line:114] INFO grab proxies...
+2019-05-17 15:34:39,727 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=1/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:34:39,728 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:39,855 getproxy.py[line:142] INFO current local ip address: 222.128.180.206, 222.128.180.206
+2019-05-17 15:34:39,857 getproxy.py[line:147] INFO validate proxies...
+2019-05-17 15:34:40,565 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=1/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:34:40,565 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:41,221 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=1/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:34:41,221 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:41,637 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=1/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:34:41,637 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:42,261 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=1/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:34:42,261 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:42,261 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 15:34:42,682 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=2/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:34:42,683 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:43,121 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=2/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:34:43,122 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:43,549 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=2/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:34:43,549 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:43,965 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=2/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:34:43,966 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:44,383 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=2/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:34:44,383 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:44,384 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 15:34:44,821 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=3/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:34:44,821 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:45,275 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=3/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:34:45,276 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:45,657 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=3/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:34:45,657 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:46,091 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=3/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:34:46,091 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:46,483 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=3/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:34:46,483 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:46,483 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 15:34:46,572 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=4/, error: find no proxy data in web page
+2019-05-17 15:34:46,572 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:46,663 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=4/, error: find no proxy data in web page
+2019-05-17 15:34:46,663 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:46,759 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=4/, error: find no proxy data in web page
+2019-05-17 15:34:46,760 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:46,872 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=4/, error: find no proxy data in web page
+2019-05-17 15:34:46,872 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:46,981 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=4/, error: find no proxy data in web page
+2019-05-17 15:34:46,982 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:46,982 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 15:34:47,068 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=5/, error: find no proxy data in web page
+2019-05-17 15:34:47,069 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:47,201 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=5/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:34:47,202 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:47,322 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=5/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:34:47,323 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:47,442 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=5/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:34:47,442 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:47,559 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=5/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:34:47,560 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:47,560 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 15:34:47,744 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=6/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:34:47,745 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:47,863 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=6/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:34:47,864 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:47,988 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=6/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:34:47,988 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:48,103 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=6/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:34:48,103 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:48,258 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=6/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:34:48,258 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:48,259 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 15:34:48,402 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=7/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:34:48,403 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:48,517 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=7/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:34:48,518 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:48,648 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=7/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:34:48,649 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:48,772 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=7/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:34:48,772 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:48,905 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=7/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:34:48,906 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:48,906 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 15:34:49,040 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=8/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:34:49,040 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:49,140 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=8/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:34:49,141 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:49,256 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=8/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:34:49,257 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:49,399 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=8/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:34:49,400 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:49,520 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=8/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:34:49,521 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:49,521 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 15:34:49,626 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=9/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:34:49,627 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:49,748 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=9/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:34:49,749 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:49,859 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=9/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:34:49,860 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:50,007 getproxy.py[line:150] INFO checked 336 proxies, got 194 valid proxies
+2019-05-17 15:34:50,026 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=9/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:34:50,026 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:50,113 manager.py[line:53] INFO replace insert 194 proxies into MySQL
+2019-05-17 15:34:50,113 task.py[line:50] INFO grab verify finished
+2019-05-17 15:34:50,114 base.py[line:135] INFO Job "verify_task (trigger: interval[0:10:00], next run at: 2019-05-17 15:44:39 CST)" executed successfully
+2019-05-17 15:34:50,159 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=9/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:34:50,159 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:34:50,159 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 15:35:07,786 getproxy.py[line:90] INFO spider plugin(89代理) grabbed 135 proxies
+2019-05-17 15:35:07,786 getproxy.py[line:90] INFO spider plugin(快代理) grabbed 135 proxies
+2019-05-17 15:35:07,786 getproxy.py[line:90] INFO spider plugin(西拉代理) grabbed 250 proxies
+2019-05-17 15:35:07,786 getproxy.py[line:90] INFO spider plugin(云代理) grabbed 0 proxies
+2019-05-17 15:35:07,787 getproxy.py[line:122] INFO grabbed 520 proxies
+2019-05-17 15:35:07,789 getproxy.py[line:138] INFO init proxy verify system...
+2019-05-17 15:35:08,285 getproxy.py[line:142] INFO current local ip address: 222.128.180.206, 222.128.180.206
+2019-05-17 15:35:08,287 getproxy.py[line:147] INFO validate proxies...
+2019-05-17 15:35:22,622 getproxy.py[line:150] INFO checked 457 proxies, got 148 valid proxies
+2019-05-17 15:35:22,835 manager.py[line:53] INFO replace insert 148 proxies into MySQL
+2019-05-17 15:35:22,836 task.py[line:32] INFO grab job finished
+2019-05-17 15:35:22,837 base.py[line:135] INFO Job "grab_task (trigger: interval[0:15:00], next run at: 2019-05-17 15:49:39 CST)" executed successfully
+2019-05-17 15:44:39,124 base.py[line:123] INFO Running job "verify_task (trigger: interval[0:10:00], next run at: 2019-05-17 15:44:39 CST)" (scheduled at 2019-05-17 15:44:39.116059+08:00)
+2019-05-17 15:44:39,126 task.py[line:39] INFO run verify job...
+2019-05-17 15:44:39,173 manager.py[line:69] INFO fetched 461 proxies from MySQL
+2019-05-17 15:44:39,182 getproxy.py[line:138] INFO init proxy verify system...
+2019-05-17 15:44:40,102 getproxy.py[line:142] INFO current local ip address: 222.128.180.206, 222.128.180.206
+2019-05-17 15:44:40,105 getproxy.py[line:147] INFO validate proxies...
+2019-05-17 15:44:53,544 getproxy.py[line:150] INFO checked 461 proxies, got 268 valid proxies
+2019-05-17 15:44:53,787 manager.py[line:53] INFO replace insert 268 proxies into MySQL
+2019-05-17 15:44:53,788 task.py[line:50] INFO grab verify finished
+2019-05-17 15:44:53,789 base.py[line:135] INFO Job "verify_task (trigger: interval[0:10:00], next run at: 2019-05-17 15:54:39 CST)" executed successfully
+2019-05-17 15:49:39,120 base.py[line:123] INFO Running job "grab_task (trigger: interval[0:15:00], next run at: 2019-05-17 15:49:39 CST)" (scheduled at 2019-05-17 15:49:39.116059+08:00)
+2019-05-17 15:49:39,120 task.py[line:17] INFO run grab job...
+2019-05-17 15:49:39,138 manager.py[line:87] INFO fetched 461 proxies from MySQL
+2019-05-17 15:49:39,144 getproxy.py[line:95] INFO load spider plugins...
+2019-05-17 15:49:39,145 getproxy.py[line:108] INFO loaded spider plugin(89代理), attach 461 proxies to it
+2019-05-17 15:49:39,145 getproxy.py[line:108] INFO loaded spider plugin(快代理), attach 461 proxies to it
+2019-05-17 15:49:39,145 getproxy.py[line:108] INFO loaded spider plugin(西拉代理), attach 461 proxies to it
+2019-05-17 15:49:39,145 getproxy.py[line:108] INFO loaded spider plugin(云代理), attach 461 proxies to it
+2019-05-17 15:49:39,145 getproxy.py[line:111] INFO loaded 4 spider plugins
+2019-05-17 15:49:39,145 getproxy.py[line:114] INFO grab proxies...
+2019-05-17 15:49:39,659 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=1/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:49:39,660 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:40,035 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=1/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:49:40,035 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:40,405 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=1/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:49:40,405 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:40,801 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=1/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:49:40,801 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:41,244 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=1/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:49:41,245 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:41,245 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 15:49:41,679 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=2/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:49:41,680 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:42,140 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=2/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:49:42,140 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:42,657 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=2/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:49:42,657 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:43,109 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=2/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:49:43,110 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:43,499 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=2/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:49:43,499 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:43,499 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 15:49:43,991 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=3/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:49:43,992 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:44,407 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=3/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:49:44,408 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:44,790 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=3/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:49:44,791 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:45,224 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=3/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:49:45,225 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:45,642 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=3/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 15:49:45,642 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:45,642 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 15:49:45,720 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=4/, error: find no proxy data in web page
+2019-05-17 15:49:45,721 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:45,830 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=4/, error: find no proxy data in web page
+2019-05-17 15:49:45,830 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:45,922 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=4/, error: find no proxy data in web page
+2019-05-17 15:49:45,922 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:46,018 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=4/, error: find no proxy data in web page
+2019-05-17 15:49:46,018 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:46,110 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=4/, error: find no proxy data in web page
+2019-05-17 15:49:46,110 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:46,111 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 15:49:46,206 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=5/, error: find no proxy data in web page
+2019-05-17 15:49:46,206 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:46,363 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=5/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:49:46,363 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:46,491 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=5/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:49:46,491 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:46,610 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=5/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:49:46,611 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:46,737 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=5/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:49:46,737 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:46,737 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 15:49:46,858 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=6/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:49:46,859 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:46,985 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=6/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:49:46,986 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:47,115 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=6/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:49:47,115 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:47,240 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=6/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:49:47,241 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:47,362 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=6/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:49:47,363 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:47,363 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 15:49:47,479 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=7/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:49:47,479 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:47,596 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=7/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:49:47,596 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:47,717 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=7/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:49:47,717 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:47,843 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=7/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:49:47,843 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:47,957 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=7/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:49:47,957 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:47,957 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 15:49:48,080 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=8/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:49:48,080 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:48,202 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=8/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:49:48,202 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:48,325 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=8/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:49:48,325 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:48,431 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=8/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:49:48,432 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:48,524 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 15:49:48] "GET /get HTTP/1.1" 308 -
+2019-05-17 15:49:48,552 manager.py[line:87] INFO fetched 461 proxies from MySQL
+2019-05-17 15:49:48,561 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 15:49:48] "GET /get/ HTTP/1.1" 200 -
+2019-05-17 15:49:48,609 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=8/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:49:48,610 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:48,610 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 15:49:48,714 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=9/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:49:48,714 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:48,755 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 15:49:48] "GET /favicon.ico HTTP/1.1" 404 -
+2019-05-17 15:49:48,838 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=9/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:49:48,839 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:48,953 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=9/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:49:48,953 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:49,090 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=9/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:49:49,090 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:49,233 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=9/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 15:49:49,233 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 15:49:49,233 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 15:50:07,781 getproxy.py[line:90] INFO spider plugin(89代理) grabbed 135 proxies
+2019-05-17 15:50:07,783 getproxy.py[line:90] INFO spider plugin(快代理) grabbed 135 proxies
+2019-05-17 15:50:07,783 getproxy.py[line:90] INFO spider plugin(西拉代理) grabbed 250 proxies
+2019-05-17 15:50:07,783 getproxy.py[line:90] INFO spider plugin(云代理) grabbed 0 proxies
+2019-05-17 15:50:07,783 getproxy.py[line:122] INFO grabbed 520 proxies
+2019-05-17 15:50:07,786 getproxy.py[line:138] INFO init proxy verify system...
+2019-05-17 15:50:08,656 getproxy.py[line:142] INFO current local ip address: 222.128.180.206, 222.128.180.206
+2019-05-17 15:50:08,656 getproxy.py[line:147] INFO validate proxies...
+2019-05-17 15:50:23,189 getproxy.py[line:150] INFO checked 496 proxies, got 143 valid proxies
+2019-05-17 15:50:23,407 manager.py[line:53] INFO replace insert 143 proxies into MySQL
+2019-05-17 15:50:23,408 task.py[line:32] INFO grab job finished
+2019-05-17 15:50:23,409 base.py[line:135] INFO Job "grab_task (trigger: interval[0:15:00], next run at: 2019-05-17 16:04:39 CST)" executed successfully
+2019-05-17 15:53:47,173 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 15:53:47] "GET /get HTTP/1.1" 308 -
+2019-05-17 15:53:47,196 manager.py[line:87] INFO fetched 552 proxies from MySQL
+2019-05-17 15:53:47,201 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 15:53:47] "GET /get/ HTTP/1.1" 200 -
+2019-05-17 15:54:02,288 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 15:54:02] "GET /get HTTP/1.1" 308 -
+2019-05-17 15:54:02,316 manager.py[line:87] INFO fetched 552 proxies from MySQL
+2019-05-17 15:54:02,325 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 15:54:02] "GET /get/ HTTP/1.1" 200 -
+2019-05-17 15:54:14,724 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 15:54:14] "GET /get HTTP/1.1" 308 -
+2019-05-17 15:54:14,744 manager.py[line:87] INFO fetched 552 proxies from MySQL
+2019-05-17 15:54:14,750 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 15:54:14] "GET /get/ HTTP/1.1" 200 -
+2019-05-17 15:54:16,329 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 15:54:16] "GET /get HTTP/1.1" 308 -
+2019-05-17 15:54:16,349 manager.py[line:87] INFO fetched 552 proxies from MySQL
+2019-05-17 15:54:16,355 _internal.py[line:122] INFO 127.0.0.1 - - [17/May/2019 15:54:16] "GET /get/ HTTP/1.1" 200 -
+2019-05-17 15:54:39,118 base.py[line:123] INFO Running job "verify_task (trigger: interval[0:10:00], next run at: 2019-05-17 15:54:39 CST)" (scheduled at 2019-05-17 15:54:39.116059+08:00)
+2019-05-17 15:54:39,119 task.py[line:39] INFO run verify job...
+2019-05-17 15:54:39,185 manager.py[line:69] INFO fetched 552 proxies from MySQL
+2019-05-17 15:54:39,192 getproxy.py[line:138] INFO init proxy verify system...
+2019-05-17 15:54:40,113 getproxy.py[line:142] INFO current local ip address: 222.128.180.206, 222.128.180.206
+2019-05-17 15:54:40,115 getproxy.py[line:147] INFO validate proxies...
+2019-05-17 15:54:54,518 getproxy.py[line:150] INFO checked 552 proxies, got 294 valid proxies
+2019-05-17 15:54:54,863 manager.py[line:53] INFO replace insert 294 proxies into MySQL
+2019-05-17 15:54:54,864 task.py[line:50] INFO grab verify finished
+2019-05-17 15:54:54,865 base.py[line:135] INFO Job "verify_task (trigger: interval[0:10:00], next run at: 2019-05-17 16:04:39 CST)" executed successfully
+2019-05-17 16:04:39,121 base.py[line:123] INFO Running job "verify_task (trigger: interval[0:10:00], next run at: 2019-05-17 16:04:39 CST)" (scheduled at 2019-05-17 16:04:39.116059+08:00)
+2019-05-17 16:04:39,122 task.py[line:39] INFO run verify job...
+2019-05-17 16:04:39,124 base.py[line:123] INFO Running job "grab_task (trigger: interval[0:15:00], next run at: 2019-05-17 16:04:39 CST)" (scheduled at 2019-05-17 16:04:39.116059+08:00)
+2019-05-17 16:04:39,124 task.py[line:17] INFO run grab job...
+2019-05-17 16:04:39,185 manager.py[line:69] INFO fetched 552 proxies from MySQL
+2019-05-17 16:04:39,192 getproxy.py[line:138] INFO init proxy verify system...
+2019-05-17 16:04:39,213 manager.py[line:87] INFO fetched 552 proxies from MySQL
+2019-05-17 16:04:39,220 getproxy.py[line:95] INFO load spider plugins...
+2019-05-17 16:04:39,220 getproxy.py[line:108] INFO loaded spider plugin(89代理), attach 552 proxies to it
+2019-05-17 16:04:39,220 getproxy.py[line:108] INFO loaded spider plugin(快代理), attach 552 proxies to it
+2019-05-17 16:04:39,220 getproxy.py[line:108] INFO loaded spider plugin(西拉代理), attach 552 proxies to it
+2019-05-17 16:04:39,220 getproxy.py[line:108] INFO loaded spider plugin(云代理), attach 552 proxies to it
+2019-05-17 16:04:39,220 getproxy.py[line:111] INFO loaded 4 spider plugins
+2019-05-17 16:04:39,221 getproxy.py[line:114] INFO grab proxies...
+2019-05-17 16:04:39,846 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=1/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:04:39,850 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:40,300 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=1/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:04:40,301 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:40,395 getproxy.py[line:142] INFO current local ip address: 222.128.180.206, 222.128.180.206
+2019-05-17 16:04:40,395 getproxy.py[line:147] INFO validate proxies...
+2019-05-17 16:04:41,102 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=1/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:04:41,102 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:41,758 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=1/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:04:41,758 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:42,229 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=1/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:04:42,230 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:42,230 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 16:04:42,843 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=2/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:04:42,843 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:43,445 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=2/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:04:43,445 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:44,131 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=2/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:04:44,131 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:44,764 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=2/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:04:44,765 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:45,137 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=2/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:04:45,138 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:45,138 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 16:04:45,517 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=3/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:04:45,518 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:45,919 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=3/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:04:45,920 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:46,335 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=3/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:04:46,335 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:46,775 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=3/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:04:46,776 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:47,220 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=3/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:04:47,221 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:47,222 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 16:04:47,354 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=4/, error: find no proxy data in web page
+2019-05-17 16:04:47,354 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:47,469 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=4/, error: find no proxy data in web page
+2019-05-17 16:04:47,469 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:47,576 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=4/, error: find no proxy data in web page
+2019-05-17 16:04:47,577 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:47,668 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=4/, error: find no proxy data in web page
+2019-05-17 16:04:47,669 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:47,791 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=4/, error: find no proxy data in web page
+2019-05-17 16:04:47,792 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:47,793 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 16:04:47,916 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=5/, error: find no proxy data in web page
+2019-05-17 16:04:47,916 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:48,066 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=5/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:04:48,066 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:48,213 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=5/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:04:48,214 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:48,353 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=5/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:04:48,354 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:48,478 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=5/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:04:48,478 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:48,478 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 16:04:48,618 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=6/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:04:48,619 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:48,745 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=6/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:04:48,745 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:48,868 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=6/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:04:48,869 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:48,993 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=6/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:04:48,993 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:49,118 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=6/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:04:49,119 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:49,119 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 16:04:49,324 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=7/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:04:49,324 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:49,444 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=7/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:04:49,444 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:49,585 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=7/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:04:49,586 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:49,717 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=7/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:04:49,718 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:49,841 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=7/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:04:49,842 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:49,842 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 16:04:49,983 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=8/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:04:49,984 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:50,120 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=8/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:04:50,121 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:50,241 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=8/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:04:50,241 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:50,364 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=8/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:04:50,364 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:50,478 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=8/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:04:50,478 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:50,479 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 16:04:50,606 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=9/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:04:50,606 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:50,729 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=9/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:04:50,730 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:50,857 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=9/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:04:50,857 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:50,971 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=9/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:04:50,972 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:51,086 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=9/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:04:51,087 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:04:51,088 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 16:04:54,572 getproxy.py[line:150] INFO checked 552 proxies, got 312 valid proxies
+2019-05-17 16:04:54,735 manager.py[line:53] INFO replace insert 312 proxies into MySQL
+2019-05-17 16:04:54,735 task.py[line:50] INFO grab verify finished
+2019-05-17 16:04:54,736 base.py[line:135] INFO Job "verify_task (trigger: interval[0:10:00], next run at: 2019-05-17 16:14:39 CST)" executed successfully
+2019-05-17 16:05:07,831 getproxy.py[line:90] INFO spider plugin(89代理) grabbed 135 proxies
+2019-05-17 16:05:07,832 getproxy.py[line:90] INFO spider plugin(快代理) grabbed 135 proxies
+2019-05-17 16:05:07,832 getproxy.py[line:90] INFO spider plugin(西拉代理) grabbed 250 proxies
+2019-05-17 16:05:07,832 getproxy.py[line:90] INFO spider plugin(云代理) grabbed 0 proxies
+2019-05-17 16:05:07,833 getproxy.py[line:122] INFO grabbed 520 proxies
+2019-05-17 16:05:07,835 getproxy.py[line:138] INFO init proxy verify system...
+2019-05-17 16:05:08,850 getproxy.py[line:142] INFO current local ip address: 222.128.180.206, 222.128.180.206
+2019-05-17 16:05:08,852 getproxy.py[line:147] INFO validate proxies...
+2019-05-17 16:05:23,504 getproxy.py[line:150] INFO checked 493 proxies, got 132 valid proxies
+2019-05-17 16:05:23,720 manager.py[line:53] INFO replace insert 132 proxies into MySQL
+2019-05-17 16:05:23,721 task.py[line:32] INFO grab job finished
+2019-05-17 16:05:23,722 base.py[line:135] INFO Job "grab_task (trigger: interval[0:15:00], next run at: 2019-05-17 16:19:39 CST)" executed successfully
+2019-05-17 16:14:39,125 base.py[line:123] INFO Running job "verify_task (trigger: interval[0:10:00], next run at: 2019-05-17 16:24:39 CST)" (scheduled at 2019-05-17 16:14:39.116059+08:00)
+2019-05-17 16:14:39,127 task.py[line:39] INFO run verify job...
+2019-05-17 16:14:39,191 manager.py[line:69] INFO fetched 640 proxies from MySQL
+2019-05-17 16:14:39,200 getproxy.py[line:138] INFO init proxy verify system...
+2019-05-17 16:14:40,155 getproxy.py[line:142] INFO current local ip address: 222.128.180.206, 222.128.180.206
+2019-05-17 16:14:40,157 getproxy.py[line:147] INFO validate proxies...
+2019-05-17 16:14:54,552 getproxy.py[line:150] INFO checked 640 proxies, got 391 valid proxies
+2019-05-17 16:14:54,706 manager.py[line:53] INFO replace insert 391 proxies into MySQL
+2019-05-17 16:14:54,706 task.py[line:50] INFO grab verify finished
+2019-05-17 16:14:54,707 base.py[line:135] INFO Job "verify_task (trigger: interval[0:10:00], next run at: 2019-05-17 16:24:39 CST)" executed successfully
+2019-05-17 16:19:39,118 base.py[line:123] INFO Running job "grab_task (trigger: interval[0:15:00], next run at: 2019-05-17 16:34:39 CST)" (scheduled at 2019-05-17 16:19:39.116059+08:00)
+2019-05-17 16:19:39,119 task.py[line:17] INFO run grab job...
+2019-05-17 16:19:39,149 manager.py[line:87] INFO fetched 640 proxies from MySQL
+2019-05-17 16:19:39,163 getproxy.py[line:95] INFO load spider plugins...
+2019-05-17 16:19:39,164 getproxy.py[line:108] INFO loaded spider plugin(89代理), attach 640 proxies to it
+2019-05-17 16:19:39,164 getproxy.py[line:108] INFO loaded spider plugin(快代理), attach 640 proxies to it
+2019-05-17 16:19:39,164 getproxy.py[line:108] INFO loaded spider plugin(西拉代理), attach 640 proxies to it
+2019-05-17 16:19:39,164 getproxy.py[line:108] INFO loaded spider plugin(云代理), attach 640 proxies to it
+2019-05-17 16:19:39,165 getproxy.py[line:111] INFO loaded 4 spider plugins
+2019-05-17 16:19:39,165 getproxy.py[line:114] INFO grab proxies...
+2019-05-17 16:19:39,713 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=1/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:19:39,715 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:40,133 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=1/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:19:40,134 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:40,521 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=1/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:19:40,522 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:40,946 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=1/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:19:40,946 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:41,311 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=1/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:19:41,311 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:41,311 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 16:19:41,657 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=2/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:19:41,658 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:42,096 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=2/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:19:42,096 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:42,440 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=2/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:19:42,440 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:42,835 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=2/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:19:42,835 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:43,174 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=2/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:19:43,174 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:43,174 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 16:19:43,506 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=3/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:19:43,506 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:43,941 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=3/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:19:43,942 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:44,289 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=3/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:19:44,289 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:44,633 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=3/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:19:44,633 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:45,225 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=3/, error: 'utf-8' codec can't decode byte 0xcb in position 338: invalid continuation byte
+2019-05-17 16:19:45,225 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:45,225 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 16:19:45,315 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=4/, error: find no proxy data in web page
+2019-05-17 16:19:45,315 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:45,424 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=4/, error: find no proxy data in web page
+2019-05-17 16:19:45,424 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:45,519 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=4/, error: find no proxy data in web page
+2019-05-17 16:19:45,519 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:45,611 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=4/, error: find no proxy data in web page
+2019-05-17 16:19:45,612 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:45,688 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=4/, error: find no proxy data in web page
+2019-05-17 16:19:45,688 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:45,688 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 16:19:45,783 getproxy.py[line:71] ERROR extract data error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=5/, error: find no proxy data in web page
+2019-05-17 16:19:45,784 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:45,908 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=5/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:19:45,908 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:46,020 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=5/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:19:46,021 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:46,159 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=5/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:19:46,159 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:46,274 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=5/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:19:46,274 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:46,274 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 16:19:46,390 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=6/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:19:46,390 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:46,505 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=6/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:19:46,506 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:46,626 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=6/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:19:46,626 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:46,739 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=6/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:19:46,739 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:46,896 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=6/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:19:46,896 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:46,896 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 16:19:47,013 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=7/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:19:47,013 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:47,159 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=7/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:19:47,160 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:47,300 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=7/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:19:47,300 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:47,435 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=7/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:19:47,435 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:47,542 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=7/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:19:47,542 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:47,542 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 16:19:47,679 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=8/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:19:47,679 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:47,784 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=8/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:19:47,784 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:47,908 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=8/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:19:47,908 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:48,036 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=8/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:19:48,036 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:48,171 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=8/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:19:48,171 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:48,171 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 16:19:48,324 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=9/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:19:48,324 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:48,466 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=9/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:19:48,466 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:48,578 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=9/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:19:48,578 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:48,687 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=9/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:19:48,688 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:48,815 getproxy.py[line:71] ERROR request error, spider plugin: 云代理, url: http://www.ip3366.net/free/?stype=1&page=9/, error: 'utf-8' codec can't decode byte 0xcd in position 252: invalid continuation byte
+2019-05-17 16:19:48,815 getproxy.py[line:66] INFO spider plugin(云代理) has no proxy available for switch
+2019-05-17 16:19:48,815 yunproxy.py[line:81] ERROR retry spider plugin(云代理)...
+2019-05-17 16:20:07,792 getproxy.py[line:90] INFO spider plugin(89代理) grabbed 135 proxies
+2019-05-17 16:20:07,792 getproxy.py[line:90] INFO spider plugin(快代理) grabbed 135 proxies
+2019-05-17 16:20:07,792 getproxy.py[line:90] INFO spider plugin(西拉代理) grabbed 250 proxies
+2019-05-17 16:20:07,792 getproxy.py[line:90] INFO spider plugin(云代理) grabbed 0 proxies
+2019-05-17 16:20:07,792 getproxy.py[line:122] INFO grabbed 520 proxies
+2019-05-17 16:20:07,793 getproxy.py[line:138] INFO init proxy verify system...
+2019-05-17 16:20:08,815 getproxy.py[line:142] INFO current local ip address: 222.128.180.206, 222.128.180.206
+2019-05-17 16:20:08,816 getproxy.py[line:147] INFO validate proxies...
+2019-05-17 16:20:23,671 getproxy.py[line:150] INFO checked 493 proxies, got 159 valid proxies
+2019-05-17 16:20:23,835 manager.py[line:53] INFO replace insert 159 proxies into MySQL
+2019-05-17 16:20:23,835 task.py[line:32] INFO grab job finished
+2019-05-17 16:20:23,835 base.py[line:135] INFO Job "grab_task (trigger: interval[0:15:00], next run at: 2019-05-17 16:34:39 CST)" executed successfully
+2019-05-17 16:24:39,116 base.py[line:123] INFO Running job "verify_task (trigger: interval[0:10:00], next run at: 2019-05-17 16:34:39 CST)" (scheduled at 2019-05-17 16:24:39.116059+08:00)
+2019-05-17 16:24:39,116 task.py[line:39] INFO run verify job...
+2019-05-17 16:24:39,140 manager.py[line:69] INFO fetched 756 proxies from MySQL
+2019-05-17 16:24:39,148 getproxy.py[line:138] INFO init proxy verify system...
+2019-05-17 16:24:40,059 getproxy.py[line:142] INFO current local ip address: 222.128.180.206, 222.128.180.206
+2019-05-17 16:24:40,059 getproxy.py[line:147] INFO validate proxies...
+2019-05-17 16:24:58,543 getproxy.py[line:150] INFO checked 756 proxies, got 335 valid proxies
+2019-05-17 16:24:58,639 manager.py[line:53] INFO replace insert 335 proxies into MySQL
+2019-05-17 16:24:58,640 task.py[line:50] INFO grab verify finished
+2019-05-17 16:24:58,641 base.py[line:135] INFO Job "verify_task (trigger: interval[0:10:00], next run at: 2019-05-17 16:34:39 CST)" executed successfully
+2019-05-17 16:34:39,117 base.py[line:123] INFO Running job "verify_task (trigger: interval[0:10:00], next run at: 2019-05-17 16:44:39 CST)" (scheduled at 2019-05-17 16:34:39.116059+08:00)
+2019-05-17 16:34:39,117 task.py[line:39] INFO run verify job...
+2019-05-17 16:34:39,118 base.py[line:123] INFO Running job "grab_task (trigger: interval[0:15:00], next run at: 2019-05-17 16:49:39 CST)" (scheduled at 2019-05-17 16:34:39.116059+08:00)
+2019-05-17 16:34:39,118 task.py[line:17] INFO run grab job...
+2019-05-17 16:34:39,147 manager.py[line:69] INFO fetched 756 proxies from MySQL
+2019-05-17 16:34:39,160 getproxy.py[line:138] INFO init proxy verify system...
+2019-05-17 16:34:39,185 manager.py[line:87] INFO fetched 756 proxies from MySQL
+2019-05-17 16:34:39,195 getproxy.py[line:95] INFO load spider plugins...
+2019-05-17 16:34:39,196 getproxy.py[line:108] INFO loaded spider plugin(89代理), attach 756 proxies to it
+2019-05-17 16:34:39,196 getproxy.py[line:108] INFO loaded spider plugin(快代理), attach 756 proxies to it
+2019-05-17 16:34:39,196 getproxy.py[line:108] INFO loaded spider plugin(西拉代理), attach 756 proxies to it
+2019-05-17 16:34:39,196 getproxy.py[line:108] INFO loaded spider plugin(云代理), attach 756 proxies to it
+2019-05-17 16:34:39,196 getproxy.py[line:111] INFO loaded 4 spider plugins
+2019-05-17 16:34:39,196 getproxy.py[line:114] INFO grab proxies...
