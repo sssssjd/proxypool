@@ -17,14 +17,14 @@ LOG_STREAM_USE = True  # 日志是否打印到控制台
 MySQL数据库连接配置
 '''
 DB_HOST, DB_PORT, DB_NAME, DB_USER, DB_PASSWORD, TABLE_NAME = (
-    '127.0.0.1', 3306, 'test', 'root', 'root', 'proxy')  # MySQL配置
+    '127.0.0.1', 3306, 'test', 'sssssjd', 'sssssjd123', 'proxy')  # MySQL配置
 
 '''
 IP免费代理抓取爬虫配置
 '''
 GRAB_INTERVAL_MINUTES = 15  # 周期抓取任务间隔（分钟）（注意比下面的大）
 ALL_GRAB_GEVENT_TIMEOUT = 8 * 60  # 所有爬取协程任务总限时（秒）
-SPIDER_MAX_ATTEMPT_NUMBER = 10  # 单个网站爬虫插件失败重试次数
+SPIDER_MAX_ATTEMPT_NUMBER = 5  # 单个网站爬虫插件失败重试次数
 
 '''
 在线验证IP代理有效性服务配置

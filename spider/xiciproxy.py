@@ -6,8 +6,14 @@ import time
 import logging
 
 import retrying
+import grequests
 import requests
+import http.client
+from urllib import request
+import urllib
 
+import gevent.monkey
+gevent.monkey.patch_all()
 from config import SPIDER_MAX_ATTEMPT_NUMBER
 from util.http import headers
 from util.utils import get_current_time_str
@@ -35,17 +41,24 @@ class Proxy(Plugin):
     def extract_proxy(self, page_num):
         try:
             full_url = self.url_template.format(page=page_num)
-            rp = requests.get(url=full_url, headers=self._headers, proxies=self.cur_proxy, timeout=10)
+            req = request.Request(full_url)
+            req.add_header = [self._headers]
+            req.add_header = [self._headers]
+            httpproxy_handler = urllib.request.ProxyHandler(self.cur_proxy)
+            opener = request.build_opener(httpproxy_handler)
+            with opener.open(req) as rp:
+                # print('Status:', rp.status, rp.reason)
+                rs = rp.read().decode('utf-8')
 
-            if rp.status_code != 200:
-                self._log(logger, 'unexpected http status code %s' % rp.status_code, full_url, 'restricted')
+            if rp.status != 200:
+                self._log(logger, 'unexpected http status code %s' % rp.status, full_url, 'restricted')
                 self._need_retry()
         except Exception as e:
             self._log(logger, 'request error', full_url, str(e))
             self._need_retry()
 
-        re_ip_result = self.re_ip_pattern.findall(rp.text)
-        re_port_result = self.re_port_pattern.findall(rp.text)
+        re_ip_result = self.re_ip_pattern.findall(rs)
+        re_port_result = self.re_port_pattern.findall(rs)
 
         if not re_ip_result or not re_port_result:
             self._log(logger, 'extract data error', full_url, 'find no proxy data in web page')

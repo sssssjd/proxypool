@@ -6,12 +6,12 @@ import random
 
 def headers(**kw):
     _headers = {
-        'accept': "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
-        'accept-encoding': "gzip, deflate",
-        'accept-language': "zh-CN,zh;q=0.9",
-        'cache-control': "no-cache",
-        'pragma': "no-cache",
-        'upgrade-insecure-requests': "1",
+        'Connection': "keep-alive",
+        'Cache-Control': "max-age=0",
+        'Upgrade-Insecure-Requests': "1",
+        'Accept': "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        'Accept-Encoding': "gzip, deflate, br",
+        'Accept-Language': "zh-CN,zh;q=0.9,zh-TW;q=0.8",
         'user-agent': user_agent(),
     }
     _headers.update(kw)

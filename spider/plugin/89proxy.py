@@ -22,16 +22,15 @@ class Proxy(Plugin):
     def __init__(self):
         Plugin.__init__(self)
 
-        self.name = '快代理'
+        self.name = '89代理'
         self.protocol = PROXY_PROTOCOL_HTTPS
         self.anonymity = PROXY_ANONYMITY_HIGH_ANONYMOUS
 
-        self.host = 'www.kuaidaili.com'
-        self.url_template = 'http://www.kuaidaili.com/free/inha/{page}/'
-        self.re_ip_pattern = re.compile(r">(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})</td>")
-        self.re_port_pattern = re.compile(r">(\d{1,5})</td>")
+        self.host = 'www.89ip.cn'
+        self.url_template = 'http://www.89ip.cn/index_{page}.html/'
+        self.re_ip_pattern = re.compile(r"<td>\s+(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})\s+</td>")
+        self.re_port_pattern = re.compile(r"<td>\s+(\d{1,5})\s+</td>")
 
-        self._cookie = None
         self._headers = headers(host=self.host)
 
     @retrying.retry(stop_max_attempt_number=SPIDER_MAX_ATTEMPT_NUMBER)
@@ -39,7 +38,6 @@ class Proxy(Plugin):
         try:
             full_url = self.url_template.format(page=page_num)
             # rp = requests.get(url=full_url, headers=self._headers, proxies=self.cur_proxy, timeout=10)
-            self._headers.update({'cookie': self._cookie})
             req = request.Request(full_url)
             req.add_header = [self._headers]
             httpproxy_handler = urllib.request.ProxyHandler(self.cur_proxy)
@@ -48,13 +46,7 @@ class Proxy(Plugin):
                 # print('Status:', rp.status, rp.reason)
                 rs = rp.read().decode('utf-8')
 
-            if rp.status == 521:
-                self._log(logger, 'unexpected http status code %s' % rp.status, full_url,
-                          'response javascript code')
-                self._set_cookies(rp.text)
-                self._need_retry(switch_proxy=False)
-
-            elif rp.status != 200:
+            if rp.status != 200:
                 self._log(logger, 'unexpected http status code %s' % rp.status, full_url, 'restricted')
                 self._need_retry()
         except Exception as e:
@@ -77,26 +69,6 @@ class Proxy(Plugin):
 
         return [{'host': host, 'port': port, 'from': self.name, 'grab_time': get_current_time_str()} for host, port in
                 result_list]
-
-    def _set_cookies(self, text):
-        try:
-            js_function_name = re.findall(r'setTimeout\("(.*?)\(', text)[0]
-            js_args_value = re.findall(r'setTimeout\(.*?\((.*?)\)', text)[0]
-            js_code = re.findall(r'(function.*?)</script>', text)[0].replace('eval("qo=eval;qo(po);");', 'return po;')
-        except Exception as e:
-            logger.error('parse javascript code failed, error: %s' % str(e))
-            return
-
-        try:
-            exe = execjs.compile(js_code)
-            ret_text = exe.call(js_function_name, js_args_value)
-            cookies_str = re.findall(r"='(.*?);", ret_text)[0]
-        except Exception as e:
-            logger.error('execute javascript code failed, error: %s' % str(e))
-            return
-
-        self._cookie = cookies_str
-        logger.info('set cookie succeed, cookie: %s' % self._cookie)
 
     def start(self):
         for page in range(1, 10):
